@@ -3,7 +3,7 @@
 attrib windows_start.cmd +s +h
 echo IYUUPlus-Allinone for Win
 echo 本项目由 KiWinger 整合
-echo 开源地址：
+echo 开源地址：https://github.com/KiWinger/IYUUPlus-Allinone
 echo.
 
 setlocal enableextensions enabledelayedexpansion

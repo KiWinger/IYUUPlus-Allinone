@@ -1,9 +1,9 @@
 This snapshot was automatically generated on
-Tue, 21 Jan 2020 19:02:11 +0000
+Tue, 04 Jun 2024 19:11:19 +0000
 
-Version: 7.4.2
+Version: 8.3.8
 Branch: HEAD
-Build: C:\php-snap-build\php74\vc15\x64\obj\Release
+Build: D:\a\php-ftw\php-ftw\php\vs16\x64\obj\Release
 
 Built-in Extensions
 ===========================
@@ -32,7 +32,6 @@ PDO
 openssl
 SimpleXML
 xml
-wddx
 xmlreader
 xmlwriter
 curl
@@ -44,30 +43,26 @@ mysqli
 
 
 Dependency information:
-Module: php7.dll
-===========================
-	imagehlp.dll
-
 Module: php_curl.dll
 ===========================
-	libcrypto-1_1-x64.dll
-	libssl-1_1-x64.dll
+	libcrypto-3-x64.dll
+	libssl-3-x64.dll
 	libssh2.dll
 	nghttp2.dll
 
-Module: libssl-1_1-x64.dll
+Module: libssl-3-x64.dll
 ===========================
-	libcrypto-1_1-x64.dll
+	libcrypto-3-x64.dll
 
 Module: libssh2.dll
 ===========================
-	libcrypto-1_1-x64.dll
+	libcrypto-3-x64.dll
 
 Module: php_enchant.dll
 ===========================
-	libenchant.dll
+	libenchant2.dll
 
-Module: libenchant.dll
+Module: libenchant2.dll
 ===========================
 	glib-2.dll
 	gmodule-2.dll
@@ -78,38 +73,46 @@ Module: gmodule-2.dll
 
 Module: php_ftp.dll
 ===========================
-	libcrypto-1_1-x64.dll
-	libssl-1_1-x64.dll
+	libcrypto-3-x64.dll
+	libssl-3-x64.dll
 
 Module: php_intl.dll
 ===========================
-	icuuc65.dll
-	icuin65.dll
-	icuio65.dll
+	icuuc72.dll
+	icuin72.dll
+	icuio72.dll
+	vcruntime140_1.dll
 
-Module: icuuc65.dll
+Module: icuuc72.dll
 ===========================
-	icudt65.dll
+	icudt72.dll
+	vcruntime140_1.dll
 
-Module: icuin65.dll
+Module: icuin72.dll
 ===========================
-	icuuc65.dll
+	icuuc72.dll
+	vcruntime140_1.dll
 
-Module: icuio65.dll
+Module: icuio72.dll
 ===========================
-	icuuc65.dll
-	icuin65.dll
+	icuuc72.dll
+	icuin72.dll
+	vcruntime140_1.dll
 
 Module: php_ldap.dll
 ===========================
 	libsasl.dll
-	libcrypto-1_1-x64.dll
-	libssl-1_1-x64.dll
+	libcrypto-3-x64.dll
+	libssl-3-x64.dll
+
+Module: libsasl.dll
+===========================
+	libcrypto-3-x64.dll
 
 Module: php_openssl.dll
 ===========================
-	libcrypto-1_1-x64.dll
-	libssl-1_1-x64.dll
+	libcrypto-3-x64.dll
+	libssl-3-x64.dll
 
 Module: php_pgsql.dll
 ===========================
@@ -117,12 +120,12 @@ Module: php_pgsql.dll
 
 Module: libpq.dll
 ===========================
-	libssl-1_1-x64.dll
-	libcrypto-1_1-x64.dll
+	libssl-3-x64.dll
+	libcrypto-3-x64.dll
 
 Module: php_snmp.dll
 ===========================
-	libcrypto-1_1-x64.dll
+	libcrypto-3-x64.dll
 
 Module: php_sodium.dll
 ===========================

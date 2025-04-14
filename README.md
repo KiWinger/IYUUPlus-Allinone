@@ -13,3 +13,5 @@
  - 一键安装/启动
  
  原版开源地址：https://github.com/ledccn/iyuuplus-dev/
+ 
+ ![](https://chart.yhype.me/github/repository-star/v1/662393831.svg)
